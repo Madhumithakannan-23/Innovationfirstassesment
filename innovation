@@ -49,3 +49,44 @@
 
 </body>
 </html>
+a{
+    color:azure;
+    text-decoration:none;
+}
+ul{
+    background-color:black;
+    list-style: none;
+    display:flex;
+    justify-content:right;
+    gap: 50px;
+    height: 1cm;
+}
+a:hover{
+    color:aqua;
+}
+#helphands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:dimgrey;
+    color:aliceblue ;
+    height: 50vh;
+}
+.btn{
+    height:40px;
+    background-color:white;
+}
+.section{
+    padding: 40px;
+    margin:20px;
+    background-color:darkslategray;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+}
+.header{
+    display:flex;
+    justify-content: center;
+}
+
+
